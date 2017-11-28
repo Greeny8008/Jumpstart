@@ -95,3 +95,9 @@ html {
   box-shadow: 0 0 0 rgba(0,0,0,0.5);
 
 }
+
+/* Section One*/
+
+.section-one .col-md-6 img{
+  width: 100%;
+}
