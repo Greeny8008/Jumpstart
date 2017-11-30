@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>Jumpstart</title>
     <link rel="icon" href="./favicon.png" type="image/x">
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
+
     <!--Stylesheets-->
     <link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
     <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+
     <!--Javascript-->
     <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -19,7 +22,9 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
     <script type="text/javascript" src="./resources/js/main.js"></script>
   </head>
+
   <body>
+    <!--Header/Navbar Section-->
     <header>
       <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
@@ -33,6 +38,8 @@
           </div>
         </div>
       </nav>
+
+      <!--Jumbotron Section-->
       <div class="jumbotron jumbotron-bike">
         <div class="container-fluid">
           <h1>GET GOING.</h1>
@@ -42,19 +49,25 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid section-one">
+
+      <!--Main Content-->
+      <div class="container main-content">
         <div class="row">
+          <div class="col-md-12">
           <h3>Featured project</h3>
-          <div class="col-md-6">
+        </div>
+        <div class="image-container">
+          <div class="col-md-6 col-sm-12">
             <img src="./resources/imgs/featured-project.png">
           </div>
-          <div class="col-md-3">
-            <h3>DeFrost: A Documentary</h3>
+        </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <h4>DeFrost: A Documentary</h4>
             <p>by Leo De Firenze</p>
             <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
           </div>
-          <div class="col-md-3">
-            <h3>Product Categories</h3>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <h4 class="featured">Product Categories</h4>
             <ul>
               <li>Art</li>
               <li>Books</li>
@@ -66,10 +79,55 @@
               <li>Magazines</li>
               <li>Plants</li>
               <li>Farming</li>
+              <li>Deedlybobs</li>
+              <li>Jams, Jellies, Etc.</li>
+              <li>Snakes &amp; Snake Equiptment</li>
+              <li>Tables</li>
+              <li>Ventrilliquit Figures</li>
+              <li>Yoyos</li>
             </ul>
           </div>
         </div>
-      </div>
 
+        <!--Projects Section-->
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h3>Projects</h3>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="image-container">
+          <img src="./resources/imgs/project1.png">
+        </div>
+          <h4>The Right Tights</h4>
+          <p>by Riley Mae</p>
+          <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="image-container">
+            <img src="./resources/imgs/project2.png">
+          </div>
+          <h4>Peppermint Smart Home</h4>
+          <p>by Brian McDonald</p>
+          <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="image=container">
+            <img src="./resources/imgs/project3.png">
+          </div>
+          <h4>American Streetlife</h4>
+          <p>by Patrick Wallace</p>
+          <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Trouble? Section-->
+    <div class="container-fluid help">
+      <span><strong>Having trouble thinking of an idea?</strong></span>
+      <p>Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
+      <div class="btn-primary btn-lg center-block">
+        <a href="#">Learn More</a>
+      </div>
+    </div>
   </body>
 </html>

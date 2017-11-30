@@ -45,6 +45,7 @@ html {
 .jumbotron{
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   color: #fff;
   display: flex;
@@ -77,6 +78,7 @@ html {
   width: 11.4rem;
   border-radius: 10px;
   background-color: #399bd1;
+  text-align: center;
 }
 
 .btn-primary a {
@@ -96,8 +98,111 @@ html {
 
 }
 
-/* Section One*/
+/* Main Content*/
 
-.section-one .col-md-6 img{
+.main-content {
+  padding: 0 10rem;
+}
+
+.main-content h3 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #399bd1;
+}
+
+.main-content h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.featured {
+  color: #399bd1
+}
+
+.main-content p {
+  font-size: 1rem;
+}
+
+.main-content li {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.main-content .col-md-6 img{
   width: 100%;
+  margin-top: 1rem;
+  padding-left: 0;
+  opacity: 0.7;
+}
+
+.main-content .col-md-4 img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.main-content .col-md-4 {
+  padding-bottom: 5.85rem;
+}
+
+/* Trouble? Section*/
+
+.help {
+  text-align: center;
+  padding: 5.4rem;
+  background-color: #f3f3f3;
+}
+
+.help strong {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-bottom: 1.4rem;
+}
+
+.help p {
+  max-width: 42rem;
+  margin: auto;
+}
+
+.help .btn-primary {
+  margin: 2rem auto;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 768px) {
+
+  /*nav*/
+
+  .nav.navbar-nav > li > a:hover {
+    background-color: #fff;
+  }
+
+  /*jumbotron*/
+
+  .jumbotron {
+    height: 80vh;
+    margin-top:5rem;
+  }
+
+  .jumbotron-bike h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron-bike h2 {
+    width: 30rem;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .btn-primary {
+    margin-top: 4rem
+  }
+
+  /*main content*/
+
+  .main-content {
+    padding: 0 1rem;
+  }
+
+
 }
