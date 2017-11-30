@@ -1,6 +1,7 @@
 html {
   font-size: 11px;
-  font-family: "Open Sans"
+  font-family: "Open Sans";
+  margin: auto;
 }
 
 /*Nav Section*/
@@ -58,17 +59,31 @@ html {
   background-image: url("../imgs/jumbotron-bike.jpg");
 }
 
-.jumbotron-bike h1 {
+.jumbotron-beer {
+  background-image: url("../imgs/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../imgs/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../imgs/jumbotron-duffel.jpg");
+}
+
+.jumbotron h1 {
   padding-top: 5rem;
   font-family: "Monoton";
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 7.1rem;
+  margin: auto;
 }
 
-.jumbotron-bike h2 {
+.jumbotron p {
   width: 51.3rem;
   font-size: 1.5rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: auto;
 }
 
 .btn-primary {
@@ -143,7 +158,12 @@ html {
 }
 
 .image-container {
+  overflow: hidden;
+}
+
+.image-container img {
   opacity: 0.7;
+  transition: transform 0.5s, opacity .5s;
 }
 
 .image-container img:hover {
