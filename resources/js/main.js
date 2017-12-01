@@ -1,9 +1,29 @@
 $(document).ready(function () {
   $('.carousel').slick({
-    arrows:false,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    fade:true
+    slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  draggable: false,
+  arrows: false,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  fade: true,
+  });
+
+  $(window).scroll(
+      {
+          previousTop: 0
+      },
+      function () {
+      var currentTop = $(window).scrollTop();
+      if (currentTop < this.previousTop) {
+
+          $(".navbar").fadeIn('slow');
+      } else {
+          $(".navbar").fadeOut('slow');
+      }
+      this.previousTop = currentTop;
   });
 
 });

@@ -52,6 +52,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 60vh;
 
 }
 
@@ -211,11 +212,11 @@ html {
     margin-top:5rem;
   }
 
-  .jumbotron-bike h1 {
+  .jumbotron h1 {
     font-size: 5.7rem;
   }
 
-  .jumbotron-bike h2 {
+  .jumbotron h2 {
     width: 30rem;
     font-size: 1.2rem;
     margin: auto;
